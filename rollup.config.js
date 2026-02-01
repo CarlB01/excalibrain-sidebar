@@ -9,7 +9,7 @@ import copy from "rollup-plugin-copy";
 
 const isProd = (process.env.NODE_ENV === "production");
 console.log("Is production", isProd);
-const DIST_FOLDER = 'dist';
+const DIST_FOLDER = '.';
 
 export default {
   input: 'src/excalibrain-main.ts',
@@ -37,8 +37,8 @@ export default {
     ] : [],
     copy({
       targets: [
-        { src: 'manifest.json', dest: DIST_FOLDER },
-        { src: 'styles.css', dest: DIST_FOLDER },
+//        { src: 'manifest.json', dest: DIST_FOLDER },
+//       { src: 'styles.css', dest: DIST_FOLDER },
       ],
       verbose: true, // Optional: To display copied files in the console
     }),

@@ -1,10 +1,9 @@
 {
-	"id": "excalibrain",
-	"name": "ExcaliBrain",
-	"version": "0.2.16",
+	"id": "sidebar-from-excalibrain",
+	"name": "sidebar",
+	"version": "0.0.0",
   "minAppVersion": "1.1.6",
-	"description": "A clean, intuitive and editable graph view for Obsidian",
-	"author": "Zsolt Viczian",
-	"authorUrl": "https://zsolt.blog",
+	"description": "A sidebar derived from excalibrain",
+	"author": "CarlB",
 	"isDesktopOnly": false
 }
