@@ -12,6 +12,8 @@ At least not until the base app is stable enough.
 
 But what a beauty excalibrain is. And even then, as Zsolt points out in his tweet, "it does not even come close to the beauty and elegance of [TheBrain's graph](https://www.thebrain.com)" where the idea of the visual node display seems to have originated. 
 
+_**IF**_ i were to stumble upon gold (.. more like finding a new planet in our solar system), I would of course submit my findings to The Owner.
+
 # references
 ExcaliBrain is inspired by [TheBrain](https://www.thebrain.com) and [Breadcrumbs](https://github.com/SkepticMystic/breadcrumbs). 
 
@@ -27,4 +29,5 @@ What is 'React' (built _natively_) ?
 
 # Prerequisites as of 2025
 ExcaliBrain is built on top of [Dataview](https://github.com/blacksmithgu/obsidian-dataview) and [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin). You must have both these plugins installed and enabled for ExcaliBrain to work.
+
 
