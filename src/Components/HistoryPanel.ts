@@ -9,8 +9,12 @@ export class HistoryPanel {
     private contentEl: HTMLElement,
     private plugin: ExcaliBrain
   ) {
+    const historyWrapper = this.plugin.settings.compactView
+      ? "excalibrain-history-wrapper-sidebar"
+      : "excalibrain-history-wrapper"; //CB 
+
     this.wrapperDiv = this.contentEl.createDiv({
-      cls: "excalibrain-history-wrapper"
+      cls: historyWrapper
     });
     
     this.rerender();

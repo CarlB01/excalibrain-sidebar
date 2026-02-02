@@ -19,9 +19,14 @@ export class ToolsPanel {
     private plugin: ExcaliBrain
   ) {
     contentEl.addClass("excalibrain-contentEl");
+
+    const toolspanelWrapper = this.plugin.settings.compactView
+      ? "excalibrain-toolspanel-wrapper-sidebar"
+      : "excalibrain-toolspanel-wrapper"; //CB 
+
     this.wrapperDiv = this.contentEl.createDiv({
-      cls: "excalibrain-toolspanel-wrapper"
-    });
+      cls: toolspanelWrapper //CB 
+    }); 
     
     const dropdownWrapperDiv = this.wrapperDiv.createDiv({
       cls: "excalibrain-dropdown-wrapper"

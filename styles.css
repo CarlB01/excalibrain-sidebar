@@ -34,9 +34,20 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
+  .excalibrain-toolspanel-wrapper-sidebar {
+    display:none;
+  }
   
   .excalibrain-dropdown-wrapper,
   .excalibrain-buttons {
+    pointer-events: none;
+    margin-top: 0.3em;
+    max-width: 37em;
+    justify-content: space-between;
+  }
+
+  .excalibrain-dropdown-wrapper-sidebar {
     pointer-events: none;
     margin-top: 0.3em;
     max-width: 37em;
@@ -55,6 +66,14 @@
     float: right;
     flex: 1 0 30em;
   }
+
+  .excalibrain-buttons-sidebar {
+    margin-left: -0.3em;
+    display: flex;
+    float: right;
+    flex: 1 0 30em;
+  }
+
 
   .excalibrain-toolspanel-divider {
     width: 0.15em;
@@ -113,6 +132,10 @@
   padding-right: 10px;
   overflow: hidden;
 }
+
+.excalibrain-history-wrapper-sidebar {
+  display:none;
+} 
 
 .excalibrain-history-container {
   overflow-y: hidden;

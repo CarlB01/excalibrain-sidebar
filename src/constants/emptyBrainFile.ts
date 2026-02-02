@@ -5,7 +5,7 @@ excalidraw-default-mode: view
 excalidraw-export-dark: false
 excalidraw-export-transparent: false
 excalidraw-linkbutton-opacity: 0.3
-excalidraw-onload-script: "app.plugins.plugins[${String.fromCharCode(96)}excalibrain${String.fromCharCode(96)}].start(ea.targetView.leaf);"
+excalidraw-onload-script: "app.plugins.plugins[${String.fromCharCode(96)}sidebar-from-excalibrain${String.fromCharCode(96)}].start(ea.targetView.leaf);"
 
 tags: [excalidraw]
 

@@ -52,9 +52,13 @@ export class LinkTagFilter {
     });
     tags.forEach(tag=>options.push({label:tag, value:tag}))
 
+    const placeholderText = this.plugin.settings.compactView 
+      ? "filter"
+      : "filter links and tags"; //CB 
+      
     const ms = new Multiselect({
       origin: this.filterDiv,
-      placeholder: "filter links and tags",
+      placeholder: placeholderText,
       options: options.sort((a,b)=>a.label>b.label?1:-1),
       selected: selected,
       onDropdownOpen: () => {
